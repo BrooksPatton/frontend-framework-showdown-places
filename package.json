@@ -1,0 +1,35 @@
+{
+  "name": "frontend-framework-showdown-places",
+  "version": "1.0.0",
+  "description": "Frontend framework showdown - places edition",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrooksPatton/frontend-framework-showdown-places.git"
+  },
+  "author": "Brooks Patton",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BrooksPatton/frontend-framework-showdown-places/issues"
+  },
+  "homepage": "https://github.com/BrooksPatton/frontend-framework-showdown-places#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "knex": "^0.21.18",
+    "pg": "^8.5.1"
+  },
+  "devDependencies": {
+    "chai": "^4.3.0",
+    "eslint": "^7.20.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.3.1",
+    "mocha": "^8.3.0",
+    "sqlite3": "^5.0.2",
+    "supertest": "^6.1.3"
+  }
+}
